@@ -493,6 +493,9 @@
 				LastTestingUpgradeCheck = 0720;
 				LastUpgradeCheck = 0720;
 				TargetAttributes = {
+					8DC2EF4F0486A6940098B216 = {
+						ProvisioningStyle = Automatic;
+					};
 					B6A432571C2708F7007FB63C = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -669,9 +672,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -681,8 +687,9 @@
 				GCC_PREFIX_HEADER = YAML_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034Identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lila.YAML;
 				PRODUCT_NAME = YAML;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -691,9 +698,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -701,8 +711,9 @@
 				GCC_PREFIX_HEADER = YAML_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034Identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lila.YAML;
 				PRODUCT_NAME = YAML;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
